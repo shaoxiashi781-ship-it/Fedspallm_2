@@ -1,0 +1,7 @@
+# Core dependencies for opt.py, llama.py, bloom.py, sparsegpt.py, datautils.py.
+# Use transformers>=4.28 for Llama-2 (llama.py). Install wandb separately if using --log_wandb.
+
+torch>=1.10.0
+transformers>=4.28.0
+datasets>=1.17.0
+numpy>=1.19.0
